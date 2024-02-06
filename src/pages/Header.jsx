@@ -18,11 +18,7 @@ export default function Header() {
       console.log(error);
     }
   };
-  useEffect(() => {
-    if (!user) {
-      navigate('/');
-    }
-  }, [user, navigate]);
+  
 
   return (
     <Navbar>
